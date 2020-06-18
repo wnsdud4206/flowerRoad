@@ -1,0 +1,8 @@
+window.pageYOffset > 0 일 때 header 숨김
+event.clientY(마우스 좌표가) <= 60 일 때 header 보임, > 일 때는 숨김
+page1(최상단) '꽃길' 이미지 페이지가 로드되었을 때 opacity, position으로 animation 주기
+page up/down 버튼 동작
+page2 이미지들 가로 스크롤?
+page4 '문의하기' 버튼 만들어 팝업? 으로 동작
+
+중간중간 scroll animation 효과

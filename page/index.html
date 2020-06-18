@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>꽃길</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body onload="scrollFunction()">
+
+    <header>
+      <h1 id="logo">
+        <a href="#">
+          <img id="flower" src="images/logo_1.png" alt="꽃">
+          <img id="load" src="images/logo_2.png" alt="길">
+        </a>
+      </h1>    <!-- image? -->
+    </header>
+
+    <section>
+      <article id="intro">
+        <img id="bg" src="images/꽃길_포스터_가로-1(670)2.png" alt="꽃길_포스터_2">
+        <img id="bg_txt" src="images/꽃길_포스터_가로-1(670).png" alt="꽃길_포스터">
+      </article>
+      <article id="content">
+        <h2>청년들의 홀로서기 프로젝트!</h2>
+        <p id="con_1">'잃어버렸던 꿈과 진로' 되찾기!<br />1년간의 진로찾기와 취업 프로젝트!<br />함께 할 청년들을  찾습니다.</p>
+        <div id="content_images">
+          <img class="left" src="images/6KakaoTalk_20191204_171823388_29.jpg" alt="con_img-1">
+          <img class="left" src="images/KakaoTalk_20191204_171823388_19.jpg" alt="con_img-2">
+          <img class="right" src="images/3KakaoTalk_20191204_171823388_23.jpg" alt="con_img-3">
+          <img class="right" src="images/2KakaoTalk_20191204_171823388_20.jpg" alt="con_img-4">
+          <!-- <img src="images/4KakaoTalk_20191204_171823388_26.jpg" alt="con_img-5"> -->
+        </div>
+        <p id="con_2">1년 동안 꾸준하고 확실하게, 나에게 맞는 진로를 찾고 취업을 준비하는 프로그램입니다.<br />나를 이해하고 공감해주는 진로 담임멘토와 무엇이든 의논하고 의지할 수 있는 공간이 생깁니다.</p>
+      </article>
+      <article id="content2">
+        <div class="con2 con2_left">
+          <h2 id="left_title">진로탐색</h2>
+          <div class="left_wrap">
+            <h3>나에게 맞는 적성을 찾아가는 청년들의 이야기</h3>
+            <div id="left_images" class="con2_images">
+              <img class="con2_image" src="images/KakaoTalk_20200606_163827817_01.jpg" alt="left_img_1">
+              <img class="con2_image" src="images/KakaoTalk_20200606_163827817_02.jpg" alt="left_img_2">
+              <!-- <img src="images/" alt="left_img_3">
+              <img src="images/" alt="left_img_4"> -->
+            </div>
+
+            <button class="close cls1">&times;</button>
+          </div>
+        </div>
+        <div class="con2 con2_right">
+          <h2 id="right_title">취업스쿨</h2>
+          <div class="right_wrap">
+            <h3>원하는 기업의 인재로 발전하는 청년들의 이야기</h3>
+            <div id="right_images" class="con2_images">
+              <img class="con2_image" src="images/KakaoTalk_20191203_180956225.jpg" alt="right_img_1">
+              <img class="con2_image" src="images/KakaoTalk_20191203_180958996.jpg" alt="right_img_2">
+              <!-- <img src="images/" alt="right_img_3">
+              <img src="images/" alt="right_img_4"> -->
+            </div>
+
+            <button class="close cls2">&times;</button>
+          </div>
+        </div>
+      </article>
+      <article id="end">    <!-- 문의사항넣기 -->
+        <div id="condition">
+          <p><strong>1. 대상/지원자격</strong><br /><span>- 만19세 ~ 34세 청년, 취업하지 않은 청년 (4대보험 가입안된 사람, 대학생 제외)</span></p>
+          <p>1) 취업이 절실히 필요하지만, 생활에 여유가 없어서 준비를 하기어려웠던 청년<br />2) 경험, 자신감이 부족해서 나에게 맞는 진로를 찾기 어려웠던 청년</p>
+          <p><strong>2. 프로그램 내용</strong>: 진로상담, 다양한 경험쌓기, 자격증취득, 취업준비, 구직기술, 생활복지 지원</p>
+          <p><strong>3. 모집기간</strong>: 2019. 10. 13(일)까지(프로그램 기간: 2019. 10 ~ 2020. 9 )</p>
+          <p><strong>4. 참가신청</strong>: http://bit.ly/청년진로학교</p>
+          <p><strong>5. 선발방법</strong><br /><span>   - 선발인원: 30명</span><br /><span>   - 방법: 서류검토 => 개별면접</span><br /><span>   - 선발기준: 가구소득이 낮은 사람, 고졸비진학자 우선선발</span></p>
+          <p><strong>6. 문의</strong>: 031-605-2030 / 010-5275-5875 / 010-9881-0987</p>
+          <p><strong>7. 위치</strong>: 성남시 수정구 성남대로 1181, 1층, 청년맞춤제작소 (성남센터)</p>
+        </div>
+        <form action="">
+          <legend>문의하기
+            <div id="form_wrap">
+              <div class="text">
+                <label for="inputEmail">이메일</label>
+                <div>
+                  <input type="text" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="text">
+                <label for="contactName">이름</label>
+                <div>
+                  <input type="text" id="contactName" placeholder="Name">
+                </div>
+              </div>
+              <div id="under">
+                <textarea class="form-control" id="contactTextarea" rows="5" placeholder="문의 사항을 적어주세요" style="margin-top: 0px; margin-bottom: 0px; height: 118px;"></textarea>
+              </div>
+              <button type="submit">제출 하기</button>
+            </div>
+          </legend>
+        </form>
+      </article>
+
+      <footer>
+        <p>Copyright ⓒ 2020 JOKA</p>
+        <button id="top_btn">Top</button>
+      </footer>
+    </section>
+
+    <div id="page_btn">
+      <button class="page"></button>
+      <button class="page"></button>
+      <button class="page"></button>
+      <button class="page"></button>
+    </div>
+
+    <div id="cursor"></div>
+
+    <script src="js/myscript.js"></script>
+
+  </body>
+</html>
