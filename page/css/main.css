@@ -3,6 +3,7 @@
 
   html {
     scroll-behavior: smooth;
+    outline: none;
   }
   body {
     background-color: rgba(0, 0, 0, .05s);
