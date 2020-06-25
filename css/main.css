@@ -268,7 +268,7 @@
   }
   article#end #condition p {
     margin-bottom: 3%;
-    font-size: 1.2vw;
+    font-size: 1em;
   }
   article#end #condition p:first-child {
     margin-top: 0;
@@ -337,11 +337,11 @@
   footer {
     background-color: rgba(0, 0, 0, .05);
     border-top: 1px solid transparent;
+    box-sizing: border-box;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
     padding: 0 6%;
     width: 100%;
   }
@@ -420,7 +420,7 @@
       height: auto;
     }
     article#content > h2 {
-      font-size: 5.5vw;
+      font-size: 2.7em;
       font-weight: 600;
     }
     article#content p:not(:last-child) {
