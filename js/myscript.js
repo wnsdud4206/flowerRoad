@@ -1,39 +1,10 @@
   // load
   $("#bg_txt").css("opacity", "1");
-  // $("#logo").css("width", "62px");
-
-  // scoll btn
-  // var wih;
-  // $(".page:first-child").on("click", function(event){
-  //   window.scrollTo(0, 0);
-  // });
-  // $(".page:nth-child(2)").on("click", function(event){
-  //   wih = window.innerHeight;
-  //   window.scrollTo(0, wih);
-  // });
-  // $(".page:nth-child(3)").on("click", function(event){
-  //   wih = window.innerHeight;
-  //   window.scrollTo(0, 2*wih);
-  // });
-  // $(".page:last-child").on("click", function(event){
-  //   wih = window.innerHeight;
-  //   window.scrollTo(0, 3*wih);
-  // });
-  // itr = document.getElementById("intro");
-  // con = document.getElementById("content");
-  // con2 = document.getElementById("content2");
-  // end = document.getElementById("end");
-
-  // $(function() {        // 축약
-  //   window.scrollTo(0, 0);
-  // });
 
   window.addEventListener("scroll", function(event) {
     scrollFunction();
   });
-  // window.onscroll = function() {
-  //   scrollFunction()
-  // }
+
   var logo, page, art, i;
 
   logo = document.getElementById("logo");
@@ -81,33 +52,6 @@
   $("#top_btn").on("click", function(event){
     window.scrollTo(0, 0);
   });
-
-
-  // window.addEventListener("wheel", function(event){
-  //   var dy = event.deltaY;
-  //   console.log(dy);
-  //   event.preventDefault();
-  //   // event.stopPropagation();
-  //   if (dy > 0) {
-  //     window.scrollBy(0, window.innerHeight/7);
-  //   } else {
-  //     window.scrollBy(0, -window.innerHeight/7);
-  //   }
-  // });
-
-
-  // wheel scroll
-  // window.addEventListener("wheel", function(event){
-  //   var dy = event.deltaY;
-  //   console.log(dy);
-  //   if (dy > 0) {
-  //     this.scrollBy(0, wih/6);
-  //   }
-  //   else {
-  //     this.scrollBy(0, -wih/6);
-  //   }
-  //   event.preventDefault();
-  // });
 
   // content2
   function over() {
@@ -158,34 +102,3 @@
     $(".con2_images img").css("margin", "8% 4% 0");
     return false;        // ㅠㅠ
   });
-
-  // function over() {
-  //   $("#content2 > .con2").on("mouseover", function(event){
-  //     console.log("good");
-  //     $(this).addClass("con2_over");
-  //     $(".con2_images img").addClass(".con2_over_image");
-  //   });
-  //   $("#content2 > .con2").on("mouseout", function(event){
-  //     $(this).revomeClass("con2_over");
-  //     $(".con2_images img").removeClass(".con2_over_image");
-  //   });
-  // }
-  // over();
-  // $("#content2 > .con2").on("click", function(event){
-  //   console.log("div");
-    // $("#content2 > .con2").off("mouseover");
-    // $("#content2 > .con2").off("mouseout");
-  //   $(this).addClass("con2_click");
-  //   $(this).find(".close").addClass("con2_click_close");
-  //   $(".con2_images img").addClass("con2_click_image");
-  //   $("#content2 > .con2").not(this).addClass("con2_click_hide");
-  // });
-  // $(".close").on("click", function(event){
-  //   console.log("close");
-    // over();
-    // $(this).removeClass("con2_click");
-    // $(this).find(".close").removeClass("con2_click_close");
-    // $(".con2_images img").removeClass("con2_click_image");
-    // $("#content2 > .con2").not(this).removeClass("con2_click_hide");
-    // return false;        // ㅠㅠ
-  // });
