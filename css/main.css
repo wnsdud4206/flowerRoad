@@ -391,7 +391,7 @@
       min-height: 100vh;
     }
     article#content #content_images img:hover {
-      width: 35vw;
+      width: 35%;
     }
     footer span {
       width: 100%;
